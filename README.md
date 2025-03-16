@@ -29,7 +29,7 @@ google-api-python-client
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Ez_voder.git
+git clone https://github.com/Tomieka/Ez_voder.git
 cd Ez_voder
 ```
 
