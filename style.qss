@@ -1,0 +1,152 @@
+QMainWindow {
+    background: #0D1117;
+}
+
+#centralWidget {
+    background: #0D1117;
+}
+
+QWidget {
+    font-family: Arial, sans-serif;
+    color: white;
+    background: transparent;
+}
+
+QLabel {
+    color: white;
+    background: transparent;
+    padding: 2px;
+    min-height: 20px;
+}
+
+QLineEdit, QTextEdit, QPlainTextEdit, QComboBox {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-size: 12px;
+    min-height: 20px;
+}
+
+QLineEdit:focus, QTextEdit:focus, QPlainTextEdit:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+QComboBox {
+    padding: 5px 10px;
+    min-height: 20px;
+}
+
+QComboBox::drop-down {
+    border: none;
+    background: transparent;
+    width: 20px;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    border: none;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #161B22;
+    border: none;
+    selection-background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 5px;
+}
+
+QPushButton {
+    background-color: #2ea043;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    min-height: 20px;
+    min-width: 80px;
+}
+
+QPushButton:hover {
+    background-color: #3fb950;
+}
+
+QPushButton:pressed {
+    background-color: #2ea043;
+}
+
+QPushButton:disabled {
+    background-color: #21262d;
+    color: #484f58;
+}
+
+QCheckBox {
+    color: white;
+    font-size: 12px;
+    background: transparent;
+    padding: 5px;
+    spacing: 8px;
+    margin: 5px 0;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+QCheckBox::indicator:checked {
+    background-color: #2ea043;
+}
+
+QProgressBar {
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 6px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #2ea043;
+    border-radius: 3px;
+}
+
+QGroupBox {
+    background-color: rgba(22, 27, 34, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-top: 1.5em;
+    padding: 5px;
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 5px 10px;
+    color: white;
+    background: transparent;
+}
+
+#titleLabel {
+    font-size: 36px;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    background: transparent;
+    font-weight: bold;
+    min-height: 50px;
+}
+
+#descriptionLabel {
+    font-size: 16px;
+    color: white;
+    margin: 5px 10px 15px 10px;
+    padding: 5px;
+    background: transparent;
+    line-height: 1.4;
+} 
